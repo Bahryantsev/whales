@@ -1,0 +1,756 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            
+                            .container {
+                                max-width: 1142px;
+                                padding: 0 16px;
+                                margin: 0 auto;
+                            }
+                            
+                            li {
+                                list-style-type: none;
+                            }
+                            
+                            .btn {
+                                padding: 12px 25px;
+                                background-color: #5551F7;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 13px;
+                                line-height: 16px;
+                                letter-spacing: 0.02em;
+                                color: #FFFFFF;
+                                border: none;
+                            }
+                            
+                            .btn:hover {
+                                cursor: pointer;
+                                opacity: .5;
+                            }
+                            
+                            .link {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 13px;
+                                line-height: 16px;
+                                letter-spacing: 0.02em;
+                                color: #1C1D28;
+                                text-decoration: none;
+                                cursor: pointer;
+                            }
+                            
+                            .link:hover {
+                                filter: invert(30%);
+                            }
+                            
+                            .title {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 30px;
+                                line-height: 145%;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .text {
+                                display: inline-block;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 15px;
+                                line-height: 185%;
+                                letter-spacing: 0.02em;
+                                color: #434343;
+                            }
+                            
+                            .phone {
+                                font-weight: 700;
+                            }
+                            
+                            .mail {
+                                font-weight: 700;
+                            }
+                            /* header */
+                            
+                            .header {
+                                position: fixed;
+                                z-index: 1;
+                                width: 100%;
+                                background-color: #FFFFFF;
+                            }
+                            
+                            .header .container {
+                                display: flex;
+                                padding-top: 54px;
+                            }
+                            
+                            .menu {
+                                display: flex;
+                            }
+                            
+                            .menu__item {
+                                margin-right: 45px;
+                            }
+                            
+                            .menu__item:nth-of-type(5) {
+                                margin-right: 197px;
+                            }
+                            
+                            .menu__item:last-of-type {
+                                margin-right: 0;
+                            }
+                            
+                            .header-phone {
+                                display: inline-block;
+                            }
+                            
+                            .header__logo {
+                                max-width: 61px;
+                                width: 100%;
+                                margin-top: -24px;
+                                margin-right: 95px;
+                            }
+                            
+                            .header__btn {
+                                margin-top: -12px;
+                            }
+                            /* main */
+                            
+                            main::before {
+                                display: block;
+                                content: "";
+                                width: 100%;
+                                height: 99px;
+                            }
+                            /* hello block */
+                            
+                            .hello .container {
+                                position: relative;
+                                display: flex;
+                                max-width: 758px;
+                                padding-bottom: 41px;
+                                flex-direction: column;
+                            }
+                            
+                            .background-text {
+                                position: relative;
+                                display: inline-block;
+                                z-index: -1;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 200px;
+                                line-height: 145%;
+                                letter-spacing: 0.02em;
+                                text-transform: uppercase;
+                                color: #F3F3F3;
+                            }
+                            
+                            .background-img {
+                                position: absolute;
+                                top: 82px;
+                                left: -88px;
+                                max-width: 504px;
+                                width: 100%;
+                                height: 504px;
+                                background-image: url(../media/DogWalkingDrone.png);
+                                margin-right: 28px;
+                            }
+                            
+                            .social {
+                                align-self: flex-end;
+                                max-width: 282px;
+                            }
+                            
+                            .hello__text {
+                                margin-bottom: 10px;
+                            }
+                            
+                            .hello__phone {
+                                display: inline-block;
+                                width: 100%;
+                                font-size: 20px;
+                                line-height: 145%;
+                                letter-spacing: 0.02em;
+                                margin-bottom: 22px;
+                            }
+                            
+                            .hello__mail {
+                                display: inline-block;
+                                width: 100%;
+                                font-size: 20px;
+                                line-height: 145%;
+                                letter-spacing: 0.02em;
+                                margin-bottom: 22px;
+                            }
+                            
+                            .social-list {
+                                display: flex;
+                                margin-bottom: 42px;
+                            }
+                            
+                            .social-list:last-of-type {
+                                margin-bottom: 0;
+                            }
+                            
+                            .social-item {
+                                margin-right: 33px;
+                            }
+                            
+                            .social-item:last-of-type {
+                                margin-right: 0;
+                            }
+                            
+                            .social__link:hover {
+                                filter: invert(70%);
+                            }
+                            /* form block */
+                            
+                            .form-block {
+                                background-color: #5551F7;
+                            }
+                            
+                            .form-block .container {
+                                max-width: 1012px;
+                                display: flex;
+                                padding-top: 133px;
+                            }
+                            
+                            .form__info {
+                                max-width: 280px;
+                                margin-right: calc( 100% - 280px - 523px);
+                                ;
+                            }
+                            
+                            .form__title {
+                                color: #FFFFFF;
+                                margin-bottom: 25px;
+                            }
+                            
+                            .form__text {
+                                color: #FFFFFF;
+                                margin-bottom: 16px;
+                            }
+                            
+                            .form-background {
+                                background-image: url(../media/mailform2.png);
+                                width: 533px;
+                                height: 342px;
+                                margin-left: -123px;
+                            }
+                            
+                            .contact__form {
+                                max-width: 523px;
+                                width: 100%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-bottom: 132px;
+                            }
+                            
+                            .form__item {
+                                display: flex;
+                                flex-direction: column;
+                                width: 100%;
+                                margin-bottom: 35px;
+                            }
+                            
+                            .form__item:last-of-type {
+                                margin-bottom: 63px;
+                            }
+                            
+                            .form__item:nth-of-type(2) {
+                                width: calc((100% - 50px)/2);
+                                margin-right: 50px;
+                            }
+                            
+                            .form__item:nth-of-type(3) {
+                                width: calc((100% - 50px)/2);
+                            }
+                            
+                            .form__label {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 15px;
+                                line-height: 18px;
+                                color: #FFFFFF;
+                                margin-bottom: 14px;
+                            }
+                            
+                            .form__label::after {
+                                content: "*";
+                            }
+                            
+                            .form-input {
+                                background-color: transparent;
+                                border: none;
+                                border-bottom: 1px solid #FFFFFF;
+                                padding-bottom: 12px;
+                                font-family: Montserrat;
+                                font-size: 12px;
+                                line-height: 15px;
+                                color: rgba(255, 255, 255, 0.8);
+                            }
+                            
+                            .form__item textarea {
+                                resize: none;
+                            }
+                            
+                            .form__item input:hover {
+                                border: none;
+                                border-bottom: 1px solid #f3838b;
+                            }
+                            
+                            .form__item input:focus {
+                                outline: none;
+                                border-bottom: 1px solid #FF5C66;
+                            }
+                            
+                            .form__item textarea:hover {
+                                border: none;
+                                border-bottom: 1px solid #f3838b;
+                            }
+                            
+                            .form__item textarea:focus {
+                                outline: none;
+                                border-bottom: 1px solid #FF5C66;
+                            }
+                            
+                            .form-input::placeholder {
+                                display: inline-block;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 15px;
+                                color: rgba(255, 255, 255, 0.3);
+                            }
+                            
+                            .form__btn {
+                                background-color: #FF5F68;
+                                margin-right: 37px;
+                                padding: 12px 48px;
+                            }
+                            
+                            .form__checkbox {
+                                align-items: center;
+                                display: flex;
+                            }
+                            
+                            .label__checkbox {
+                                display: flex;
+                                align-items: center;
+                                margin: 0;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 10px;
+                                line-height: 145%;
+                                letter-spacing: 0.02em;
+                                color: rgba(255, 255, 255, 0.8);
+                            }
+                            
+                            .input__checkbox {
+                                display: none;
+                            }
+                            
+                            .form__checkbox .input__checkbox:checked+.label__checkbox .item::before {
+                                content: '';
+                                position: absolute;
+                                left: 50%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                                width: 10px;
+                                height: 10px;
+                                display: inline-block;
+                                background-image: url(../media/Checkbox-checked.svg);
+                                background-size: cover;
+                                background-position: center;
+                            }
+                            
+                            .label__checkbox .item:hover {
+                                cursor: pointer;
+                            }
+                            
+                            .label__checkbox .item {
+                                width: 17px;
+                                height: 17px;
+                                display: inline-block;
+                                border: 1px solid rgba(255, 255, 255, 0.8);
+                                position: relative;
+                                margin-right: 14px;
+                            }
+                            /* FOOTER */
+                            
+                            .footer {
+                                background-color: #1C1D28;
+                            }
+                            
+                            .footer .container {
+                                max-width: 1142px;
+                                display: grid;
+                                padding: 78px 16px 40px;
+                                grid-template-columns: 35% 65%;
+                                grid-template-rows: 65px 1fr;
+                            }
+                            
+                            .wrapper {
+                                display: flex;
+                                justify-content: space-between;
+                                grid-column-start: 2;
+                                grid-column-end: 3;
+                                grid-row-start: 1;
+                                grid-row-end: 3;
+                            }
+                            
+                            .copyright {
+                                display: flex;
+                                grid-column-start: 1;
+                                grid-column-end: 3;
+                                grid-row-start: 3;
+                                grid-row-end: 4;
+                            }
+                            
+                            .footer__title {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 15px;
+                                line-height: 145%;
+                                letter-spacing: 0.02em;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                margin-bottom: 20px;
+                            }
+                            
+                            .footer__link {
+                                font-size: 12px;
+                                line-height: 185%;
+                                letter-spacing: 0.02em;
+                                color: #FFFFFF;
+                            }
+                            
+                            .foter__item {
+                                display: inline-block;
+                                margin-bottom: 10px;
+                            }
+                            
+                            .footer__logo {
+                                filter: invert(100%);
+                            }
+                            
+                            .footer-logo {
+                                margin-right: calc(100% - 142px - 226px - 100px - 169px - 100px - 93px);
+                            }
+                            
+                            .breefs {
+                                margin-right: 100px;
+                                margin-bottom: 62px;
+                            }
+                            
+                            .about {
+                                margin-right: 100px;
+                            }
+                            
+                            .footer__list:last-child {
+                                margin-bottom: 0;
+                            }
+                            
+                            .contacts__item:first-of-type {
+                                margin-bottom: 21px;
+                            }
+                            
+                            .contacts__item:last-of-type {
+                                margin-bottom: 22px;
+                            }
+                            
+                            .footer-background-text {
+                                display: inline-block;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 15px;
+                                color: rgba(255, 255, 255, 0.3);
+                                margin-right: 46px;
+                            }
+                            
+                            .footer-background-text:last-of-type {
+                                margin-right: 0;
+                            }
+                            
+                            .footer .container p {
+                                margin-right: calc(100% - 46px - 209px - 202px - 125px);
+                            }
+                            
+                            .footer .container .round .social-item {
+                                position: relative;
+                                border-radius: 50%;
+                                width: 39px;
+                                height: 39px;
+                                border: 1px solid #fff;
+                                margin-right: 11px;
+                            }
+                            
+                            .footer .container .round .social-item:first-of-type {
+                                border: 1px solid #FF5C66;
+                            }
+                            
+                            .footer .container .round .social-item:last-of-type {
+                                margin-right: 0;
+                            }
+                            
+                            .footer .container .round .social-item .social__link {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                height: 15px;
+                                width: 15px;
+                            }
+                            
+                            .footer .container .round .social-item .social__link .link-img {
+                                max-width: 15px;
+                                max-height: 15px;
+                            }
+                            
+                            @media(max-width:1023px) {
+                                .container {
+                                    max-width: 756px;
+                                }
+                                .btn {
+                                    padding: 10px 18px;
+                                    font-size: 10px;
+                                    line-height: 12px;
+                                }
+                                .phone {
+                                    font-weight: bold;
+                                }
+                                .link {
+                                    font-size: 10px;
+                                    line-height: 12px;
+                                }
+                                .text {
+                                    font-size: 10px;
+                                    line-height: 185%;
+                                }
+                                /* header */
+                                .header {
+                                    position: static;
+                                }
+                                .header .container {
+                                    padding-top: 29px;
+                                }
+                                .header__logo {
+                                    max-width: 49px;
+                                    width: 100%;
+                                }
+                                .menu__item {
+                                    margin-right: 25px;
+                                }
+                                .menu__item:nth-of-type(5) {
+                                    margin-right: 91px;
+                                }
+                                /* hello */
+                                .hello .container {
+                                    max-width: 541px;
+                                    padding-bottom: 134px;
+                                }
+                                .background-text {
+                                    font-size: 140px;
+                                }
+                                .social {
+                                    margin-left: -81px;
+                                }
+                                .background-img {
+                                    position: absolute;
+                                    top: 42px;
+                                    left: -98px;
+                                    max-width: 424px;
+                                    width: 100%;
+                                    height: 424px;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                /* form */
+                                .form-background {
+                                    display: none;
+                                }
+                                .form-block .container {
+                                    display: block;
+                                    padding-top: 96px;
+                                    padding-bottom: 96px;
+                                }
+                                .form__info {
+                                    margin: 0 auto;
+                                }
+                                .contact__form {
+                                    margin: 0 auto;
+                                }
+                                /* footer */
+                                .footer .container {
+                                    display: block;
+                                }
+                                .footer__link {
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                }
+                                .footer .container .social-list {
+                                    margin-bottom: 68px;
+                                }
+                            }
+                            
+                            @media(max-width:767px) {
+                                .title {
+                                    font-size: 15px;
+                                    line-height: 145%;
+                                }
+                                .text {
+                                    font-size: 13px;
+                                    line-height: 185%;
+                                }
+                                /* header */
+                                /* Hello */
+                                .hello .container {
+                                    flex-direction: column;
+                                    padding-bottom: 54px;
+                                    padding-top: 27px;
+                                }
+                                .background-img {
+                                    position: absolute;
+                                    top: 36px;
+                                    left: 52px;
+                                    max-width: 216px;
+                                    width: 100%;
+                                    height: 216px;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    margin-right: 0;
+                                }
+                                .background-text {
+                                    align-self: center;
+                                    font-size: 50px;
+                                    font-weight: 900;
+                                    line-height: 145%;
+                                    margin-bottom: 193px;
+                                }
+                                .social {
+                                    align-self: center;
+                                }
+                                /* form */
+                                .form-block .container {
+                                    padding: 65px 15px;
+                                }
+                                .form__info {
+                                    text-align: center;
+                                    margin: 0 auto;
+                                    margin-bottom: 50px;
+                                }
+                                .form__title {
+                                    margin-bottom: 20px;
+                                }
+                                .form__checkbox {
+                                    display: none;
+                                }
+                                .contact__form {
+                                    display: block;
+                                    margin: 0 auto;
+                                    max-width: 300px;
+                                }
+                                .form__item {
+                                    max-width: 300px;
+                                    width: 100%;
+                                    margin-bottom: 35px;
+                                }
+                                .form__item:nth-of-type(2) {
+                                    width: 300px;
+                                }
+                                .form__item:nth-of-type(3) {
+                                    width: 300px;
+                                }
+                                .form__item:nth-of-type(4) {
+                                    margin-bottom: 50px;
+                                }
+                                .form__btn {
+                                    width: 100%;
+                                }
+                                /* footer */
+                                .footer .container {
+                                    padding: 34px 9px;
+                                    display: block;
+                                }
+                                .wrapper {
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr;
+                                    column-gap: 48px;
+                                }
+                                .breefs {
+                                    grid-column-start: 1;
+                                    grid-column-end: 3;
+                                    grid-row-start: 1;
+                                    grid-row-end: 2;
+                                }
+                                .about {
+                                    grid-column-start: 2;
+                                    grid-column-end: 3;
+                                    grid-row-start: 2;
+                                    grid-row-end: 3;
+                                }
+                                .contacts {
+                                    grid-column-start: 1;
+                                    grid-column-end: 2;
+                                    grid-row-start: 2;
+                                    grid-row-end: 3;
+                                }
+                                .footer__logo {
+                                    width: 49px;
+                                    height: 49px;
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                                .footer__link {
+                                    font-size: 12px;
+                                    line-height: 185%;
+                                }
+                                .footer-background-text {
+                                    display: inline-block;
+                                    margin: 0;
+                                }
+                                .copyright {
+                                    display: grid;
+                                    grid-template-columns: 60% 1fr;
+                                    grid-template-rows: 1fr 1fr;
+                                    row-gap: 20px;
+                                    align-items: center;
+                                }
+                                .footer-background-textt:nth-child(1) {
+                                    grid-column-start: 1;
+                                    grid-column-end: 3;
+                                    grid-row-start: 2;
+                                    grid-row-end: 3;
+                                }
+                                .footer-background-text:nth-child(2) {
+                                    grid-column-start: 1;
+                                    grid-column-end: 2;
+                                    grid-row-start: 1;
+                                    grid-row-end: 2;
+                                }
+                                .footer-background-text:nth-child(3) {
+                                    grid-column-start: 2;
+                                    grid-column-end: 3;
+                                    grid-row-start: 1;
+                                    grid-row-end: 2;
+                                    align-self: center;
+                                }
+                                .footer .container .contacts .social-list {
+                                    margin-bottom: 59px;
+                                }
+                                .footer .container .social-list {
+                                    margin-bottom: 39px;
+                                }
+                            }
