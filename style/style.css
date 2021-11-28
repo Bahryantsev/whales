@@ -444,9 +444,7 @@
                                 filter: invert(100%);
                             }
                             
-                            .footer-logo {
-                                margin-right: calc(100% - 142px - 226px - 100px - 169px - 100px - 93px);
-                            }
+                          
                             
                             .breefs {
                                 margin-right: 100px;
